@@ -1,0 +1,583 @@
+[
+  {"date":"2050-05-01", "type":"T", "kind":"solar", "saros":148, "num":23, "note":"Total solar eclipse"},
+  {"date":"2050-10-25", "type":"A", "kind":"solar", "saros":153, "num":11, "note":"Annular solar eclipse"},
+
+  {"date":"2049-03-30", "type":"T", "kind":"solar", "saros":139, "num":31, "note":"Total solar eclipse"},
+  {"date":"2049-09-23", "type":"A", "kind":"solar", "saros":144, "num":19, "note":"Annular solar eclipse"},
+
+  {"date":"2048-01-26", "type":"A", "kind":"solar", "saros":141, "num":31, "note":"Annular solar eclipse"},
+  {"date":"2048-07-22", "type":"T", "kind":"solar", "saros":146, "num":17, "note":"Total solar eclipse"},
+
+  {"date":"2047-02-15", "type":"T", "kind":"solar", "saros":150, "num":25, "note":"Total solar eclipse"},
+  {"date":"2047-08-12", "type":"A", "kind":"solar", "saros":155, "num":13, "note":"Annular solar eclipse"},
+
+  {"date":"2046-02-06", "type":"A", "kind":"solar", "saros":150, "num":24, "note":"Annular solar eclipse"},
+  {"date":"2046-08-02", "type":"T", "kind":"solar", "saros":155, "num":12, "note":"Total solar eclipse"},
+
+  {"date":"2045-03-20", "type":"T", "kind":"solar", "saros":129, "num":58, "note":"Total solar eclipse"},
+  {"date":"2045-09-12", "type":"A", "kind":"solar", "saros":134, "num":45, "note":"Annular solar eclipse"},
+
+  {"date":"2044-04-09", "type":"T", "kind":"solar", "saros":139, "num":30, "note":"Total solar eclipse"},
+  {"date":"2044-10-02", "type":"A", "kind":"solar", "saros":144, "num":18, "note":"Annular solar eclipse"},
+
+  {"date":"2043-02-20", "type":"T", "kind":"solar", "saros":149, "num":22, "note":"Total solar eclipse"},
+  {"date":"2043-08-15", "type":"A", "kind":"solar", "saros":154, "num":10, "note":"Annular solar eclipse"},
+
+  {"date":"2042-03-10", "type":"H", "kind":"solar", "saros":142, "num":26, "note":"Hybrid solar eclipse"},
+  {"date":"2042-09-02", "type":"A", "kind":"solar", "saros":147, "num":25, "note":"Annular solar eclipse"},
+
+  {"date":"2041-04-01", "type":"T", "kind":"solar", "saros":129, "num":57, "note":"Total solar eclipse"},
+  {"date":"2041-09-24", "type":"T", "kind":"solar", "saros":134, "num":44, "note":"Total solar eclipse"},
+
+  {"date":"2040-04-20", "type":"T", "kind":"solar", "saros":139, "num":30, "note":"Total solar eclipse"},
+  {"date":"2040-10-14", "type":"A", "kind":"solar", "saros":144, "num":18, "note":"Annular solar eclipse"},
+
+  {"date":"2039-03-07", "type":"T", "kind":"solar", "saros":149, "num":21, "note":"Total solar eclipse"},
+  {"date":"2039-09-02", "type":"A", "kind":"solar", "saros":154, "num":9, "note":"Annular solar eclipse"},
+
+  {"date":"2038-01-26", "type":"A", "kind":"solar", "saros":141, "num":30, "note":"Annular solar eclipse"},
+  {"date":"2038-07-22", "type":"T", "kind":"solar", "saros":146, "num":16, "note":"Total solar eclipse"},
+
+  {"date":"2037-02-15", "type":"T", "kind":"solar", "saros":150, "num":23, "note":"Total solar eclipse"},
+  {"date":"2037-08-12", "type":"A", "kind":"solar", "saros":155, "num":11, "note":"Annular solar eclipse"},
+
+  {"date":"2036-03-09", "type":"T", "kind":"solar", "saros":130, "num":55, "note":"Total solar eclipse"},
+  {"date":"2036-09-02", "type":"A", "kind":"solar", "saros":135, "num":73, "note":"Annular solar eclipse"},
+
+  {"date":"2035-03-30", "type":"T", "kind":"solar", "saros":139, "num":29, "note":"Total solar eclipse"},
+  {"date":"2035-09-23", "type":"A", "kind":"solar", "saros":144, "num":17, "note":"Annular solar eclipse"},
+
+  {"date":"2034-02-20", "type":"T", "kind":"solar", "saros":149, "num":20, "note":"Total solar eclipse"},
+  {"date":"2034-08-15", "type":"A", "kind":"solar", "saros":154, "num":8, "note":"Annular solar eclipse"},
+
+  {"date":"2033-03-30", "type":"H", "kind":"solar", "saros":142, "num":24, "note":"Hybrid solar eclipse"},
+  {"date":"2033-09-12", "type":"A", "kind":"solar", "saros":147, "num":23, "note":"Annular solar eclipse"},
+
+  {"date":"2032-04-09", "type":"T", "kind":"solar", "saros":129, "num":56, "note":"Total solar eclipse"},
+  {"date":"2032-11-03", "type":"T", "kind":"solar", "saros":143, "num":45, "note":"Total solar eclipse"},
+
+  {"date":"2031-05-01", "type":"A", "kind":"solar", "saros":148, "num":21, "note":"Annular solar eclipse"},
+  {"date":"2031-10-25", "type":"T", "kind":"solar", "saros":153, "num":9, "note":"Total solar eclipse"},
+
+  {"date":"2030-06-01", "type":"A", "kind":"solar", "saros":147, "num":22, "note":"Annular solar eclipse"},
+  {"date":"2030-11-25", "type":"T", "kind":"solar", "saros":152, "num":8, "note":"Total solar eclipse"},
+
+  {"date":"2029-01-14", "type":"A", "kind":"solar", "saros":141, "num":28, "note":"Annular solar eclipse"},
+  {"date":"2029-07-11", "type":"T", "kind":"solar", "saros":146, "num":14, "note":"Total solar eclipse"},
+
+  {"date":"2028-01-26", "type":"A", "kind":"solar", "saros":141, "num":29, "note":"Annular solar eclipse"},
+  {"date":"2028-07-22", "type":"T", "kind":"solar", "saros":146, "num":15, "note":"Total solar eclipse"},
+
+  {"date":"2027-02-06", "type":"A", "kind":"solar", "saros":150, "num":21, "note":"Annular solar eclipse"},
+  {"date":"2027-08-02", "type":"T", "kind":"solar", "saros":155, "num":9, "note":"Total solar eclipse"},
+
+  {"date":"2026-02-17", "type":"A", "kind":"solar", "saros":121, "num":61, "note":"Annular solar eclipse"},
+  {"date":"2026-03-03", "type":"T", "kind":"lunar", "saros":133, "num":21, "note":"Total lunar eclipse"},
+  {"date":"2026-08-12", "type":"T", "kind":"solar", "saros":126, "num":48, "note":"Total solar eclipse"},
+  {"date":"2026-08-28", "type":"P", "kind":"lunar", "saros":139, "num":28, "note":"Partial lunar eclipse"},
+
+  {"date":"2025-03-14", "type":"T", "kind":"lunar", "saros":129, "num":41, "note":"Total lunar - Blood Moon possible"},
+  {"date":"2025-03-29", "type":"P", "kind":"solar", "saros":149, "num":21, "note":"Partial solar eclipse"},
+  {"date":"2025-09-07", "type":"T", "kind":"lunar", "saros":129, "num":42, "note":"Total lunar eclipse"},
+  {"date":"2025-09-21", "type":"P", "kind":"solar", "saros":154, "num":7, "note":"Partial solar eclipse"},
+
+  {"date":"2024-03-25", "type":"P", "kind":"lunar", "saros":113, "num":72, "note":"Penumbral lunar eclipse"},
+  {"date":"2024-04-08", "type":"T", "kind":"solar", "saros":139, "num":30, "note":"Total solar eclipse"},
+  {"date":"2024-09-18", "type":"P", "kind":"lunar", "saros":118, "num":58, "note":"Partial lunar eclipse"},
+  {"date":"2024-10-02", "type":"A", "kind":"solar", "saros":144, "num":17, "note":"Annular solar eclipse"},
+
+  {"date":"2023-04-20", "type":"H", "kind":"solar", "saros":129, "num":35, "note":"Hybrid solar eclipse"},
+  {"date":"2023-05-05", "type":"P", "kind":"lunar", "saros":141, "num":23, "note":"Penumbral lunar eclipse"},
+  {"date":"2023-10-14", "type":"A", "kind":"solar", "saros":134, "num":44, "note":"Annular solar eclipse"},
+  {"date":"2023-10-28", "type":"P", "kind":"lunar", "saros":146, "num":11, "note":"Partial lunar eclipse"},
+
+  {"date":"2022-04-30", "type":"P", "kind":"solar", "saros":119, "num":68, "note":"Partial solar eclipse"},
+  {"date":"2022-05-16", "type":"T", "kind":"lunar", "saros":121, "num":60, "note":"Total lunar eclipse"},
+  {"date":"2022-10-25", "type":"P", "kind":"solar", "saros":124, "num":55, "note":"Partial solar eclipse"},
+  {"date":"2022-11-08", "type":"T", "kind":"lunar", "saros":136, "num":23, "note":"Total lunar eclipse"},
+
+  {"date":"2021-05-26", "type":"T", "kind":"lunar", "saros":121, "num":59, "note":"Total lunar eclipse"},
+  {"date":"2021-06-10", "type":"A", "kind":"solar", "saros":147, "num":23, "note":"Annular solar eclipse"},
+  {"date":"2021-11-19", "type":"P", "kind":"lunar", "saros":126, "num":52, "note":"Partial lunar eclipse"},
+  {"date":"2021-12-04", "type":"T", "kind":"solar", "saros":152, "num":12, "note":"Total solar eclipse"},
+
+  {"date":"2020-01-10", "type":"P", "kind":"lunar", "saros":144, "num":58, "note":"Penumbral lunar eclipse"},
+  {"date":"2020-06-05", "type":"P", "kind":"solar", "saros":147, "num":22, "note":"Partial solar eclipse"},
+  {"date":"2020-06-21", "type":"A", "kind":"solar", "saros":137, "num":36, "note":"Annular solar eclipse"},
+  {"date":"2020-07-05", "type":"P", "kind":"lunar", "saros":149, "num":19, "note":"Penumbral lunar eclipse"},
+  {"date":"2020-11-30", "type":"P", "kind":"lunar", "saros":116, "num":82, "note":"Penumbral lunar eclipse"},
+  {"date":"2020-12-14", "type":"T", "kind":"solar", "saros":142, "num":23, "note":"Total solar eclipse"},
+
+  {"date":"2019-01-06", "type":"P", "kind":"solar", "saros":122, "num":58, "note":"Partial solar eclipse"},
+  {"date":"2019-01-21", "type":"T", "kind":"lunar", "saros":134, "num":27, "note":"Total lunar eclipse"},
+  {"date":"2019-07-02", "type":"T", "kind":"solar", "saros":127, "num":58, "note":"Total solar eclipse"},
+  {"date":"2019-07-16", "type":"P", "kind":"lunar", "saros":139, "num":21, "note":"Partial lunar eclipse"},
+  {"date":"2019-12-26", "type":"A", "kind":"solar", "saros":132, "num":46, "note":"Annular solar eclipse"},
+
+  {"date":"2018-01-31", "type":"T", "kind":"lunar", "saros":124, "num":56, "note":"Total lunar eclipse"},
+  {"date":"2018-02-15", "type":"P", "kind":"solar", "saros":150, "num":11, "note":"Partial solar eclipse"},
+  {"date":"2018-07-13", "type":"P", "kind":"solar", "saros":117, "num":70, "note":"Partial solar eclipse"},
+  {"date":"2018-07-27", "type":"T", "kind":"lunar", "saros":129, "num":40, "note":"Total lunar eclipse"},
+  {"date":"2018-08-11", "type":"P", "kind":"solar", "saros":155, "num":6, "note":"Partial solar eclipse"},
+
+  {"date":"2017-02-11", "type":"P", "kind":"lunar", "saros":114, "num":71, "note":"Penumbral lunar eclipse"},
+  {"date":"2017-02-26", "type":"A", "kind":"solar", "saros":140, "num":29, "note":"Annular solar eclipse"},
+  {"date":"2017-08-07", "type":"P", "kind":"lunar", "saros":119, "num":61, "note":"Partial lunar eclipse"},
+  {"date":"2017-08-21", "type":"T", "kind":"solar", "saros":145, "num":22, "note":"Total solar eclipse"},
+
+  {"date":"2016-03-09", "type":"T", "kind":"solar", "saros":130, "num":56, "note":"Total solar eclipse"},
+  {"date":"2016-03-23", "type":"P", "kind":"lunar", "saros":142, "num":18, "note":"Penumbral lunar eclipse"},
+  {"date":"2016-08-18", "type":"P", "kind":"lunar", "saros":147, "num":11, "note":"Penumbral lunar eclipse"},
+  {"date":"2016-09-01", "type":"A", "kind":"solar", "saros":135, "num":71, "note":"Annular solar eclipse"},
+
+  {"date":"2015-03-20", "type":"T", "kind":"solar", "saros":120, "num":61, "note":"Total solar eclipse"},
+  {"date":"2015-04-04", "type":"T", "kind":"lunar", "saros":132, "num":30, "note":"Total lunar eclipse"},
+  {"date":"2015-09-13", "type":"P", "kind":"solar", "saros":125, "num":54, "note":"Partial solar eclipse"},
+  {"date":"2015-09-28", "type":"T", "kind":"lunar", "saros":137, "num":26, "note":"Total lunar eclipse"},
+
+  {"date":"2014-04-15", "type":"T", "kind":"lunar", "saros":122, "num":56, "note":"Total lunar eclipse"},
+  {"date":"2014-04-29", "type":"A", "kind":"solar", "saros":148, "num":23, "note":"Annular solar eclipse"},
+  {"date":"2014-10-08", "type":"T", "kind":"lunar", "saros":127, "num":41, "note":"Total lunar eclipse"},
+  {"date":"2014-10-23", "type":"P", "kind":"solar", "saros":153, "num":9, "note":"Partial solar eclipse"},
+
+  {"date":"2013-04-25", "type":"P", "kind":"lunar", "saros":112, "num":65, "note":"Partial lunar eclipse"},
+  {"date":"2013-05-10", "type":"A", "kind":"solar", "saros":118, "num":67, "note":"Annular solar eclipse"},
+  {"date":"2013-05-25", "type":"P", "kind":"lunar", "saros":150, "num":1, "note":"Penumbral lunar eclipse"},
+  {"date":"2013-10-18", "type":"P", "kind":"lunar", "saros":117, "num":52, "note":"Penumbral lunar eclipse"},
+  {"date":"2013-11-03", "type":"H", "kind":"solar", "saros":143, "num":23, "note":"Hybrid solar eclipse"},
+
+  {"date":"2012-05-20", "type":"A", "kind":"solar", "saros":128, "num":58, "note":"Annular solar eclipse"},
+  {"date":"2012-06-04", "type":"P", "kind":"lunar", "saros":140, "num":35, "note":"Partial lunar eclipse"},
+  {"date":"2012-11-13", "type":"T", "kind":"solar", "saros":133, "num":45, "note":"Total solar eclipse"},
+  {"date":"2012-11-28", "type":"P", "kind":"lunar", "saros":145, "num":12, "note":"Penumbral lunar eclipse"},
+
+  {"date":"2011-01-04", "type":"P", "kind":"solar", "saros":151, "num":14, "note":"Partial solar eclipse"},
+  {"date":"2011-06-01", "type":"P", "kind":"solar", "saros":118, "num":66, "note":"Partial solar eclipse"},
+  {"date":"2011-06-15", "type":"T", "kind":"lunar", "saros":130, "num":34, "note":"Total lunar eclipse"},
+  {"date":"2011-07-01", "type":"P", "kind":"solar", "saros":156, "num":1, "note":"Partial solar eclipse"},
+  {"date":"2011-11-25", "type":"P", "kind":"solar", "saros":123, "num":53, "note":"Partial solar eclipse"},
+  {"date":"2011-12-10", "type":"T", "kind":"lunar", "saros":135, "num":23, "note":"Total lunar eclipse"},
+
+  {"date":"2010-01-15", "type":"A", "kind":"solar", "saros":141, "num":23, "note":"Annular solar eclipse"},
+  {"date":"2010-06-26", "type":"P", "kind":"lunar", "saros":140, "num":34, "note":"Partial lunar eclipse"},
+  {"date":"2010-07-11", "type":"T", "kind":"solar", "saros":146, "num":27, "note":"Total solar eclipse"},
+  {"date":"2010-12-21", "type":"T", "kind":"lunar", "saros":116, "num":81, "note":"Total lunar eclipse"},
+  {"date":"2009-01-26", "type":"A", "kind":"solar", "saros":131, "num":23, "note":"Annular solar eclipse"},
+  {"date":"2009-02-09", "type":"P", "kind":"lunar", "saros":143, "num":14, "note":"Penumbral lunar eclipse"},
+  {"date":"2009-07-07", "type":"P", "kind":"lunar", "saros":110, "num":37, "note":"Penumbral lunar eclipse"},
+  {"date":"2009-07-22", "type":"T", "kind":"solar", "saros":136, "num":37, "note":"Total solar eclipse"},
+  {"date":"2009-08-06", "type":"P", "kind":"lunar", "saros":148, "num":8, "note":"Penumbral lunar eclipse"},
+  {"date":"2009-12-31", "type":"P", "kind":"lunar", "saros":115, "num":84, "note":"Partial lunar eclipse"},
+
+  {"date":"2008-02-07", "type":"A", "kind":"solar", "saros":121, "num":60, "note":"Annular solar eclipse"},
+  {"date":"2008-02-21", "type":"T", "kind":"lunar", "saros":133, "num":20, "note":"Total lunar eclipse"},
+  {"date":"2008-08-01", "type":"T", "kind":"solar", "saros":126, "num":47, "note":"Total solar eclipse"},
+  {"date":"2008-08-16", "type":"P", "kind":"lunar", "saros":138, "num":27, "note":"Partial lunar eclipse"},
+
+  {"date":"2007-03-03", "type":"T", "kind":"lunar", "saros":124, "num":55, "note":"Total lunar eclipse"},
+  {"date":"2007-03-19", "type":"P", "kind":"solar", "saros":149, "num":19, "note":"Partial solar eclipse"},
+  {"date":"2007-08-28", "type":"T", "kind":"lunar", "saros":128, "num":38, "note":"Total lunar eclipse"},
+  {"date":"2007-09-11", "type":"P", "kind":"solar", "saros":154, "num":5, "note":"Partial solar eclipse"},
+
+  {"date":"2006-03-14", "type":"P", "kind":"lunar", "saros":112, "num":64, "note":"Penumbral lunar eclipse"},
+  {"date":"2006-03-29", "type":"T", "kind":"solar", "saros":139, "num":29, "note":"Total solar eclipse"},
+  {"date":"2006-09-07", "type":"P", "kind":"lunar", "saros":117, "num":51, "note":"Partial lunar eclipse"},
+  {"date":"2006-09-22", "type":"A", "kind":"solar", "saros":144, "num":16, "note":"Annular solar eclipse"},
+
+  {"date":"2005-04-08", "type":"H", "kind":"solar", "saros":129, "num":33, "note":"Hybrid solar eclipse"},
+  {"date":"2005-04-24", "type":"P", "kind":"lunar", "saros":141, "num":21, "note":"Penumbral lunar eclipse"},
+  {"date":"2005-10-03", "type":"A", "kind":"solar", "saros":134, "num":43, "note":"Annular solar eclipse"},
+  {"date":"2005-10-17", "type":"P", "kind":"lunar", "saros":146, "num":9, "note":"Partial lunar eclipse"},
+
+  {"date":"2004-04-19", "type":"P", "kind":"solar", "saros":118, "num":65, "note":"Partial solar eclipse"},
+  {"date":"2004-05-04", "type":"T", "kind":"lunar", "saros":121, "num":57, "note":"Total lunar eclipse"},
+  {"date":"2004-10-14", "type":"P", "kind":"solar", "saros":123, "num":52, "note":"Partial solar eclipse"},
+  {"date":"2004-10-28", "type":"T", "kind":"lunar", "saros":136, "num":21, "note":"Total lunar eclipse"},
+
+  {"date":"2003-05-16", "type":"T", "kind":"lunar", "saros":121, "num":56, "note":"Total lunar eclipse"},
+  {"date":"2003-05-31", "type":"A", "kind":"solar", "saros":147, "num":21, "note":"Annular solar eclipse"},
+  {"date":"2003-11-09", "type":"P", "kind":"lunar", "saros":126, "num":50, "note":"Partial lunar eclipse"},
+  {"date":"2003-11-23", "type":"T", "kind":"solar", "saros":152, "num":11, "note":"Total solar eclipse"},
+
+  {"date":"2002-06-24", "type":"P", "kind":"solar", "saros":117, "num":68, "note":"Partial solar eclipse"},
+  {"date":"2002-07-09", "type":"T", "kind":"lunar", "saros":130, "num":32, "note":"Total lunar eclipse"},
+  {"date":"2002-12-04", "type":"T", "kind":"solar", "saros":142, "num":22, "note":"Total solar eclipse"},
+  {"date":"2002-12-19", "type":"P", "kind":"lunar", "saros":116, "num":79, "note":"Penumbral lunar eclipse"},
+
+  {"date":"2001-01-09", "type":"A", "kind":"solar", "saros":141, "num":21, "note":"Annular solar eclipse"},
+  {"date":"2001-06-21", "type":"T", "kind":"solar", "saros":127, "num":57, "note":"Total solar eclipse"},
+  {"date":"2001-07-05", "type":"P", "kind":"lunar", "saros":149, "num":17, "note":"Partial lunar eclipse"},
+  {"date":"2001-12-30", "type":"P", "kind":"solar", "saros":151, "num":13, "note":"Partial solar eclipse"},
+
+  {"date":"2000-01-21", "type":"P", "kind":"lunar", "saros":144, "num":56, "note":"Penumbral lunar eclipse"},
+  {"date":"2000-07-01", "type":"P", "kind":"solar", "saros":117, "num":67, "note":"Partial solar eclipse"},
+  {"date":"2000-07-16", "type":"T", "kind":"lunar", "saros":139, "num":19, "note":"Total lunar eclipse"},
+  {"date":"2000-12-25", "type":"P", "kind":"solar", "saros":122, "num":57, "note":"Partial solar eclipse"},
+  {"date":"1999-02-16", "type":"A", "kind":"solar", "saros":140, "num":28, "note":"Annular solar eclipse"},
+  {"date":"1999-07-28", "type":"P", "kind":"lunar", "saros":139, "num":18, "note":"Partial lunar eclipse"},
+  {"date":"1999-08-11", "type":"T", "kind":"solar", "saros":145, "num":21, "note":"Total solar eclipse"},
+
+  {"date":"1998-03-13", "type":"P", "kind":"lunar", "saros":112, "num":63, "note":"Penumbral lunar eclipse"},
+  {"date":"1998-03-27", "type":"T", "kind":"solar", "saros":139, "num":28, "note":"Total solar eclipse"},
+  {"date":"1998-08-08", "type":"P", "kind":"lunar", "saros":117, "num":50, "note":"Partial lunar eclipse"},
+  {"date":"1998-08-22", "type":"A", "kind":"solar", "saros":144, "num":15, "note":"Annular solar eclipse"},
+
+  {"date":"1997-03-09", "type":"T", "kind":"solar", "saros":130, "num":54, "note":"Total solar eclipse"},
+  {"date":"1997-03-24", "type":"P", "kind":"lunar", "saros":142, "num":16, "note":"Penumbral lunar eclipse"},
+  {"date":"1997-09-02", "type":"P", "kind":"lunar", "saros":147, "num":9, "note":"Penumbral lunar eclipse"},
+  {"date":"1997-09-16", "type":"T", "kind":"solar", "saros":135, "num":70, "note":"Total solar eclipse"},
+
+  {"date":"1996-04-17", "type":"P", "kind":"solar", "saros":118, "num":64, "note":"Partial solar eclipse"},
+  {"date":"1996-04-04", "type":"T", "kind":"lunar", "saros":121, "num":56, "note":"Total lunar eclipse"},
+  {"date":"1996-09-27", "type":"T", "kind":"lunar", "saros":136, "num":20, "note":"Total lunar eclipse"},
+  {"date":"1996-10-12", "type":"P", "kind":"solar", "saros":123, "num":51, "note":"Partial solar eclipse"},
+
+  {"date":"1995-04-15", "type":"T", "kind":"lunar", "saros":121, "num":55, "note":"Total lunar eclipse"},
+  {"date":"1995-04-29", "type":"A", "kind":"solar", "saros":147, "num":20, "note":"Annular solar eclipse"},
+  {"date":"1995-10-08", "type":"P", "kind":"lunar", "saros":126, "num":49, "note":"Partial lunar eclipse"},
+  {"date":"1995-10-24", "type":"T", "kind":"solar", "saros":152, "num":10, "note":"Total solar eclipse"},
+
+  {"date":"1994-05-10", "type":"A", "kind":"solar", "saros":128, "num":56, "note":"Annular solar eclipse"},
+  {"date":"1994-05-25", "type":"P", "kind":"lunar", "saros":140, "num":33, "note":"Partial lunar eclipse"},
+  {"date":"1994-11-03", "type":"T", "kind":"solar", "saros":133, "num":43, "note":"Total solar eclipse"},
+  {"date":"1994-11-18", "type":"P", "kind":"lunar", "saros":145, "num":10, "note":"Penumbral lunar eclipse"},
+
+  {"date":"1993-05-21", "type":"P", "kind":"solar", "saros":118, "num":63, "note":"Partial solar eclipse"},
+  {"date":"1993-06-04", "type":"T", "kind":"lunar", "saros":130, "num":31, "note":"Total lunar eclipse"},
+  {"date":"1993-11-13", "type":"P", "kind":"solar", "saros":123, "num":50, "note":"Partial solar eclipse"},
+  {"date":"1993-11-29", "type":"T", "kind":"lunar", "saros":135, "num":22, "note":"Total lunar eclipse"},
+
+  {"date":"1992-01-04", "type":"A", "kind":"solar", "saros":141, "num":20, "note":"Annular solar eclipse"},
+  {"date":"1992-06-30", "type":"T", "kind":"solar", "saros":127, "num":56, "note":"Total solar eclipse"},
+  {"date":"1992-07-15", "type":"P", "kind":"lunar", "saros":149, "num":16, "note":"Partial lunar eclipse"},
+  {"date":"1992-12-24", "type":"P", "kind":"solar", "saros":151, "num":12, "note":"Partial solar eclipse"},
+
+  {"date":"1991-01-15", "type":"A", "kind":"solar", "saros":131, "num":21, "note":"Annular solar eclipse"},
+  {"date":"1991-07-11", "type":"T", "kind":"solar", "saros":136, "num":35, "note":"Total solar eclipse"},
+  {"date":"1991-12-21", "type":"T", "kind":"lunar", "saros":116, "num":78, "note":"Total lunar eclipse"},
+
+  {"date":"1990-01-26", "type":"A", "kind":"solar", "saros":121, "num":59, "note":"Annular solar eclipse"},
+  {"date":"1990-07-22", "type":"T", "kind":"solar", "saros":126, "num":46, "note":"Total solar eclipse"},
+  {"date":"1990-08-06", "type":"P", "kind":"lunar", "saros":138, "num":26, "note":"Partial lunar eclipse"},
+
+  {"date":"1989-03-07", "type":"T", "kind":"lunar", "saros":124, "num":54, "note":"Total lunar eclipse"},
+  {"date":"1989-03-22", "type":"P", "kind":"solar", "saros":149, "num":18, "note":"Partial solar eclipse"},
+  {"date":"1989-08-31", "type":"T", "kind":"lunar", "saros":128, "num":37, "note":"Total lunar eclipse"},
+  {"date":"1989-09-15", "type":"P", "kind":"solar", "saros":154, "num":4, "note":"Partial solar eclipse"},
+
+  {"date":"1988-03-03", "type":"T", "kind":"lunar", "saros":114, "num":70, "note":"Total lunar eclipse"},
+  {"date":"1988-03-18", "type":"A", "kind":"solar", "saros":140, "num":27, "note":"Annular solar eclipse"},
+  {"date":"1988-09-11", "type":"P", "kind":"lunar", "saros":119, "num":60, "note":"Partial lunar eclipse"},
+  {"date":"1988-09-26", "type":"T", "kind":"solar", "saros":145, "num":20, "note":"Total solar eclipse"},
+
+  {"date":"1987-03-03", "type":"T", "kind":"solar", "saros":130, "num":53, "note":"Total solar eclipse"},
+  {"date":"1987-03-18", "type":"P", "kind":"lunar", "saros":142, "num":15, "note":"Penumbral lunar eclipse"},
+  {"date":"1987-09-11", "type":"P", "kind":"lunar", "saros":147, "num":8, "note":"Penumbral lunar eclipse"},
+  {"date":"1987-09-26", "type":"A", "kind":"solar", "saros":135, "num":69, "note":"Annular solar eclipse"},
+
+  {"date":"1986-04-09", "type":"P", "kind":"solar", "saros":118, "num":62, "note":"Partial solar eclipse"},
+  {"date":"1986-04-24", "type":"T", "kind":"lunar", "saros":121, "num":55, "note":"Total lunar eclipse"},
+  {"date":"1986-10-03", "type":"A", "kind":"solar", "saros":123, "num":49, "note":"Annular solar eclipse"},
+  {"date":"1986-10-17", "type":"T", "kind":"lunar", "saros":136, "num":19, "note":"Total lunar eclipse"},
+
+  {"date":"1985-04-04", "type":"T", "kind":"lunar", "saros":121, "num":54, "note":"Total lunar eclipse"},
+  {"date":"1985-04-18", "type":"A", "kind":"solar", "saros":147, "num":19, "note":"Annular solar eclipse"},
+  {"date":"1985-10-13", "type":"P", "kind":"lunar", "saros":126, "num":48, "note":"Partial lunar eclipse"},
+  {"date":"1985-10-28", "type":"T", "kind":"solar", "saros":152, "num":9, "note":"Total solar eclipse"},
+
+  {"date":"1984-05-30", "type":"A", "kind":"solar", "saros":128, "num":55, "note":"Annular solar eclipse"},
+  {"date":"1984-06-14", "type":"P", "kind":"lunar", "saros":140, "num":32, "note":"Partial lunar eclipse"},
+  {"date":"1984-11-22", "type":"T", "kind":"solar", "saros":133, "num":42, "note":"Total solar eclipse"},
+  {"date":"1984-12-08", "type":"P", "kind":"lunar", "saros":145, "num":9, "note":"Penumbral lunar eclipse"},
+
+  {"date":"1983-06-11", "type":"T", "kind":"solar", "saros":127, "num":55, "note":"Total solar eclipse"},
+  {"date":"1983-12-04", "type":"T", "kind":"lunar", "saros":116, "num":77, "note":"Total lunar eclipse"},
+
+  {"date":"1982-06-21", "type":"T", "kind":"solar", "saros":127, "num":54, "note":"Total solar eclipse"},
+  {"date":"1982-12-15", "type":"P", "kind":"solar", "saros":122, "num":56, "note":"Partial solar eclipse"},
+
+  {"date":"1981-07-17", "type":"T", "kind":"solar", "saros":136, "num":33, "note":"Total solar eclipse"},
+  {"date":"1981-12-31", "type":"P", "kind":"lunar", "saros":115, "num":83, "note":"Partial lunar eclipse"},
+
+  {"date":"1980-02-16", "type":"T", "kind":"solar", "saros":130, "num":52, "note":"Total solar eclipse"},
+  {"date":"1980-08-11", "type":"A", "kind":"solar", "saros":135, "num":68, "note":"Annular solar eclipse"},
+
+  {"date":"1979-02-26", "type":"T", "kind":"solar", "saros":120, "num":59, "note":"Total solar eclipse"},
+  {"date":"1979-03-13", "type":"P", "kind":"lunar", "saros":140, "num":31, "note":"Partial lunar eclipse"},
+  {"date":"1979-08-22", "type":"A", "kind":"solar", "saros":125, "num":34, "note":"Annular solar eclipse"},
+  {"date":"1979-09-06", "type":"T", "kind":"lunar", "saros":145, "num":8, "note":"Total lunar eclipse"},
+
+  {"date":"1978-03-24", "type":"A", "kind":"solar", "saros":130, "num":51, "note":"Annular solar eclipse"},
+  {"date":"1978-09-02", "type":"P", "kind":"lunar", "saros":147, "num":7, "note":"Penumbral lunar eclipse"},
+  {"date":"1978-09-16", "type":"T", "kind":"solar", "saros":135, "num":67, "note":"Total solar eclipse"},
+
+  {"date":"1977-04-04", "type":"P", "kind":"solar", "saros":118, "num":61, "note":"Partial solar eclipse"},
+  {"date":"1977-04-18", "type":"T", "kind":"lunar", "saros":121, "num":54, "note":"Total lunar eclipse"},
+  {"date":"1977-10-12", "type":"T", "kind":"solar", "saros":123, "num":48, "note":"Total solar eclipse"},
+  {"date":"1977-10-26", "type":"T", "kind":"lunar", "saros":136, "num":18, "note":"Total lunar eclipse"},
+
+  {"date":"1976-04-29", "type":"T", "kind":"lunar", "saros":121, "num":53, "note":"Total lunar eclipse"},
+  {"date":"1976-05-13", "type":"A", "kind":"solar", "saros":147, "num":18, "note":"Annular solar eclipse"},
+  {"date":"1976-10-23", "type":"P", "kind":"lunar", "saros":126, "num":47, "note":"Partial lunar eclipse"},
+  {"date":"1976-11-06", "type":"T", "kind":"solar", "saros":152, "num":8, "note":"Total solar eclipse"},
+
+  {"date":"1975-05-11", "type":"A", "kind":"solar", "saros":128, "num":54, "note":"Annular solar eclipse"},
+  {"date":"1975-05-25", "type":"P", "kind":"lunar", "saros":140, "num":30, "note":"Partial lunar eclipse"},
+  {"date":"1975-11-03", "type":"T", "kind":"solar", "saros":133, "num":41, "note":"Total solar eclipse"},
+  {"date":"1975-11-18", "type":"P", "kind":"lunar", "saros":145, "num":7, "note":"Penumbral lunar eclipse"},
+
+  {"date":"1974-06-20", "type":"T", "kind":"solar", "saros":127, "num":53, "note":"Total solar eclipse"},
+  {"date":"1974-12-13", "type":"P", "kind":"solar", "saros":122, "num":55, "note":"Partial solar eclipse"},
+
+  {"date":"1973-01-04", "type":"A", "kind":"solar", "saros":141, "num":19, "note":"Annular solar eclipse"},
+  {"date":"1973-06-30", "type":"T", "kind":"solar", "saros":146, "num":25, "note":"Total solar eclipse"},
+  {"date":"1973-12-24", "type":"A", "kind":"solar", "saros":151, "num":11, "note":"Annular solar eclipse"},
+
+  {"date":"1972-01-16", "type":"A", "kind":"solar", "saros":131, "num":20, "note":"Annular solar eclipse"},
+  {"date":"1972-07-10", "type":"T", "kind":"solar", "saros":136, "num":32, "note":"Total solar eclipse"},
+  {"date":"1972-12-20", "type":"P", "kind":"lunar", "saros":115, "num":82, "note":"Partial lunar eclipse"},
+
+  {"date":"1971-02-25", "type":"T", "kind":"solar", "saros":121, "num":58, "note":"Total solar eclipse"},
+  {"date":"1971-08-20", "type":"P", "kind":"solar", "saros":126, "num":45, "note":"Partial solar eclipse"},
+
+  {"date":"1970-03-07", "type":"T", "kind":"solar", "saros":130, "num":50, "note":"Total solar eclipse"},
+  {"date":"1970-08-31", "type":"A", "kind":"solar", "saros":135, "num":66, "note":"Annular solar eclipse"},
+  {"date":"1969-04-02", "type":"A", "kind":"solar", "saros":128, "num":53, "note":"Annular solar eclipse"},
+  {"date":"1969-04-18", "type":"T", "kind":"lunar", "saros":121, "num":52, "note":"Total lunar eclipse"},
+  {"date":"1969-09-11", "type":"T", "kind":"solar", "saros":134, "num":40, "note":"Total solar eclipse"},
+  {"date":"1969-09-25", "type":"P", "kind":"lunar", "saros":126, "num":46, "note":"Partial lunar eclipse"},
+
+  {"date":"1968-03-13", "type":"P", "kind":"solar", "saros":118, "num":60, "note":"Partial solar eclipse"},
+  {"date":"1968-03-28", "type":"T", "kind":"lunar", "saros":121, "num":51, "note":"Total lunar eclipse"},
+  {"date":"1968-09-06", "type":"P", "kind":"solar", "saros":123, "num":47, "note":"Partial solar eclipse"},
+  {"date":"1968-09-20", "type":"T", "kind":"lunar", "saros":136, "num":17, "note":"Total lunar eclipse"},
+
+  {"date":"1967-04-24", "type":"A", "kind":"solar", "saros":147, "num":17, "note":"Annular solar eclipse"},
+  {"date":"1967-10-18", "type":"T", "kind":"solar", "saros":133, "num":40, "note":"Total solar eclipse"},
+  {"date":"1967-10-03", "type":"P", "kind":"lunar", "saros":145, "num":6, "note":"Penumbral lunar eclipse"},
+
+  {"date":"1966-05-20", "type":"T", "kind":"solar", "saros":127, "num":52, "note":"Total solar eclipse"},
+  {"date":"1966-10-13", "type":"A", "kind":"solar", "saros":123, "num":46, "note":"Annular solar eclipse"},
+
+  {"date":"1965-03-20", "type":"T", "kind":"solar", "saros":130, "num":49, "note":"Total solar eclipse"},
+  {"date":"1965-09-14", "type":"A", "kind":"solar", "saros":135, "num":65, "note":"Annular solar eclipse"},
+
+  {"date":"1964-03-29", "type":"T", "kind":"solar", "saros":120, "num":58, "note":"Total solar eclipse"},
+  {"date":"1964-09-21", "type":"A", "kind":"solar", "saros":125, "num":33, "note":"Annular solar eclipse"},
+
+  {"date":"1963-07-20", "type":"T", "kind":"solar", "saros":126, "num":44, "note":"Total solar eclipse"},
+  {"date":"1963-12-30", "type":"A", "kind":"solar", "saros":131, "num":19, "note":"Annular solar eclipse"},
+
+  {"date":"1962-02-05", "type":"T", "kind":"solar", "saros":140, "num":25, "note":"Total solar eclipse"},
+  {"date":"1962-07-31", "type":"A", "kind":"solar", "saros":135, "num":64, "note":"Annular solar eclipse"},
+
+  {"date":"1961-02-15", "type":"T", "kind":"solar", "saros":140, "num":24, "note":"Total solar eclipse"},
+  {"date":"1961-08-11", "type":"A", "kind":"solar", "saros":135, "num":63, "note":"Annular solar eclipse"},
+
+  {"date":"1960-03-07", "type":"T", "kind":"solar", "saros":130, "num":48, "note":"Total solar eclipse"},
+  {"date":"1960-09-05", "type":"A", "kind":"solar", "saros":135, "num":62, "note":"Annular solar eclipse"},
+
+  {"date":"1959-03-08", "type":"A", "kind":"solar", "saros":129, "num":47, "note":"Annular solar eclipse"},
+  {"date":"1959-03-24", "type":"P", "kind":"lunar", "saros":141, "num":19, "note":"Penumbral lunar eclipse"},
+  {"date":"1959-09-01", "type":"A", "kind":"solar", "saros":134, "num":39, "note":"Annular solar eclipse"},
+  {"date":"1959-09-15", "type":"P", "kind":"lunar", "saros":146, "num":4, "note":"Penumbral lunar eclipse"},
+
+  {"date":"1958-03-25", "type":"P", "kind":"solar", "saros":118, "num":59, "note":"Partial solar eclipse"},
+  {"date":"1958-04-08", "type":"T", "kind":"lunar", "saros":121, "num":50, "note":"Total lunar eclipse"},
+  {"date":"1958-10-02", "type":"P", "kind":"solar", "saros":123, "num":46, "note":"Partial solar eclipse"},
+  {"date":"1958-10-17", "type":"T", "kind":"lunar", "saros":136, "num":16, "note":"Total lunar eclipse"},
+
+  {"date":"1957-04-30", "type":"T", "kind":"lunar", "saros":121, "num":49, "note":"Total lunar eclipse"},
+  {"date":"1957-05-15", "type":"A", "kind":"solar", "saros":147, "num":16, "note":"Annular solar eclipse"},
+  {"date":"1957-10-23", "type":"P", "kind":"lunar", "saros":126, "num":45, "note":"Partial lunar eclipse"},
+  {"date":"1957-11-07", "type":"T", "kind":"solar", "saros":152, "num":7, "note":"Total solar eclipse"},
+
+  {"date":"1956-06-08", "type":"T", "kind":"solar", "saros":127, "num":51, "note":"Total solar eclipse"},
+  {"date":"1956-11-02", "type":"A", "kind":"solar", "saros":123, "num":45, "note":"Annular solar eclipse"},
+
+  {"date":"1955-06-20", "type":"T", "kind":"solar", "saros":136, "num":30, "note":"Total solar eclipse"},
+  {"date":"1955-12-14", "type":"A", "kind":"solar", "saros":131, "num":18, "note":"Annular solar eclipse"},
+
+  {"date":"1954-01-05", "type":"T", "kind":"lunar", "saros":124, "num":52, "note":"Total lunar eclipse"},
+  {"date":"1954-06-30", "type":"P", "kind":"solar", "saros":117, "num":66, "note":"Partial solar eclipse"},
+  {"date":"1954-07-16", "type":"T", "kind":"lunar", "saros":139, "num":17, "note":"Total lunar eclipse"},
+  {"date":"1954-12-25", "type":"P", "kind":"solar", "saros":122, "num":54, "note":"Partial solar eclipse"},
+
+  {"date":"1953-01-29", "type":"T", "kind":"solar", "saros":140, "num":23, "note":"Total solar eclipse"},
+  {"date":"1953-07-26", "type":"P", "kind":"solar", "saros":126, "num":43, "note":"Partial solar eclipse"},
+
+  {"date":"1952-02-18", "type":"A", "kind":"solar", "saros":140, "num":22, "note":"Annular solar eclipse"},
+  {"date":"1952-08-11", "type":"A", "kind":"solar", "saros":135, "num":61, "note":"Annular solar eclipse"},
+
+  {"date":"1951-03-07", "type":"A", "kind":"solar", "saros":129, "num":46, "note":"Annular solar eclipse"},
+  {"date":"1951-09-01", "type":"A", "kind":"solar", "saros":134, "num":38, "note":"Annular solar eclipse"},
+
+  {"date":"1950-03-28", "type":"P", "kind":"solar", "saros":118, "num":58, "note":"Partial solar eclipse"},
+  {"date":"1950-04-12", "type":"T", "kind":"lunar", "saros":121, "num":48, "note":"Total lunar eclipse"},
+  {"date":"1950-09-11", "type":"P", "kind":"solar", "saros":123, "num":45, "note":"Partial solar eclipse"},
+  {"date":"1950-09-25", "type":"T", "kind":"lunar", "saros":136, "num":15, "note":"Total lunar eclipse"},
+  {"date":"1949-01-03", "type":"A", "kind":"solar", "saros":141, "num":18, "note":"Annular solar eclipse"},
+  {"date":"1949-06-28", "type":"T", "kind":"solar", "saros":127, "num":50, "note":"Total solar eclipse"},
+  {"date":"1949-07-13", "type":"P", "kind":"lunar", "saros":149, "num":14, "note":"Partial lunar eclipse"},
+  {"date":"1949-12-22", "type":"A", "kind":"solar", "saros":131, "num":17, "note":"Annular solar eclipse"},
+
+  {"date":"1948-01-12", "type":"T", "kind":"lunar", "saros":124, "num":51, "note":"Total lunar eclipse"},
+  {"date":"1948-06-02", "type":"T", "kind":"solar", "saros":136, "num":29, "note":"Total solar eclipse"},
+  {"date":"1948-11-01", "type":"P", "kind":"solar", "saros":122, "num":53, "note":"Partial solar eclipse"},
+  {"date":"1948-11-16", "type":"T", "kind":"lunar", "saros":116, "num":76, "note":"Total lunar eclipse"},
+
+  {"date":"1947-03-03", "type":"A", "kind":"solar", "saros":140, "num":21, "note":"Annular solar eclipse"},
+  {"date":"1947-08-23", "type":"P", "kind":"solar", "saros":126, "num":42, "note":"Partial solar eclipse"},
+
+  {"date":"1946-03-28", "type":"A", "kind":"solar", "saros":129, "num":45, "note":"Annular solar eclipse"},
+  {"date":"1946-09-21", "type":"A", "kind":"solar", "saros":134, "num":37, "note":"Annular solar eclipse"},
+
+  {"date":"1945-03-19", "type":"P", "kind":"solar", "saros":118, "num":57, "note":"Partial solar eclipse"},
+  {"date":"1945-04-03", "type":"T", "kind":"lunar", "saros":121, "num":47, "note":"Total lunar eclipse"},
+  {"date":"1945-09-27", "type":"P", "kind":"solar", "saros":123, "num":44, "note":"Partial solar eclipse"},
+  {"date":"1945-10-12", "type":"T", "kind":"lunar", "saros":136, "num":14, "note":"Total lunar eclipse"},
+
+  {"date":"1944-04-23", "type":"T", "kind":"lunar", "saros":121, "num":46, "note":"Total lunar eclipse"},
+  {"date":"1944-05-09", "type":"A", "kind":"solar", "saros":147, "num":15, "note":"Annular solar eclipse"},
+  {"date":"1944-10-16", "type":"P", "kind":"lunar", "saros":126, "num":44, "note":"Partial lunar eclipse"},
+  {"date":"1944-10-31", "type":"T", "kind":"solar", "saros":152, "num":6, "note":"Total solar eclipse"},
+
+  {"date":"1943-06-19", "type":"T", "kind":"solar", "saros":127, "num":49, "note":"Total solar eclipse"},
+  {"date":"1943-12-13", "type":"A", "kind":"solar", "saros":123, "num":43, "note":"Annular solar eclipse"},
+
+  {"date":"1942-03-28", "type":"A", "kind":"solar", "saros":130, "num":47, "note":"Annular solar eclipse"},
+  {"date":"1942-09-20", "type":"A", "kind":"solar", "saros":135, "num":60, "note":"Annular solar eclipse"},
+
+  {"date":"1941-03-13", "type":"T", "kind":"solar", "saros":120, "num":57, "note":"Total solar eclipse"},
+  {"date":"1941-09-06", "type":"A", "kind":"solar", "saros":125, "num":32, "note":"Annular solar eclipse"},
+
+  {"date":"1940-04-22", "type":"A", "kind":"solar", "saros":128, "num":52, "note":"Annular solar eclipse"},
+  {"date":"1940-10-16", "type":"T", "kind":"solar", "saros":133, "num":39, "note":"Total solar eclipse"},
+
+  {"date":"1939-04-19", "type":"T", "kind":"lunar", "saros":121, "num":45, "note":"Total lunar eclipse"},
+  {"date":"1939-05-05", "type":"A", "kind":"solar", "saros":147, "num":14, "note":"Annular solar eclipse"},
+  {"date":"1939-10-12", "type":"P", "kind":"lunar", "saros":126, "num":43, "note":"Partial lunar eclipse"},
+  {"date":"1939-10-27", "type":"T", "kind":"solar", "saros":152, "num":5, "note":"Total solar eclipse"},
+
+  {"date":"1938-06-08", "type":"T", "kind":"solar", "saros":127, "num":48, "note":"Total solar eclipse"},
+  {"date":"1938-12-02", "type":"A", "kind":"solar", "saros":123, "num":42, "note":"Annular solar eclipse"},
+
+  {"date":"1937-03-28", "type":"A", "kind":"solar", "saros":130, "num":46, "note":"Annular solar eclipse"},
+  {"date":"1937-09-21", "type":"A", "kind":"solar", "saros":135, "num":59, "note":"Annular solar eclipse"},
+
+  {"date":"1936-03-13", "type":"T", "kind":"solar", "saros":120, "num":56, "note":"Total solar eclipse"},
+  {"date":"1936-09-05", "type":"A", "kind":"solar", "saros":125, "num":31, "note":"Annular solar eclipse"},
+
+  {"date":"1935-04-14", "type":"A", "kind":"solar", "saros":128, "num":51, "note":"Annular solar eclipse"},
+  {"date":"1935-10-09", "type":"T", "kind":"solar", "saros":133, "num":38, "note":"Total solar eclipse"},
+
+  {"date":"1934-06-19", "type":"T", "kind":"solar", "saros":127, "num":47, "note":"Total solar eclipse"},
+  {"date":"1934-12-14", "type":"P", "kind":"solar", "saros":122, "num":52, "note":"Partial solar eclipse"},
+
+  {"date":"1933-01-14", "type":"A", "kind":"solar", "saros":141, "num":17, "note":"Annular solar eclipse"},
+  {"date":"1933-07-09", "type":"T", "kind":"solar", "saros":136, "num":28, "note":"Total solar eclipse"},
+  {"date":"1933-12-24", "type":"A", "kind":"solar", "saros":131, "num":16, "note":"Annular solar eclipse"},
+
+  {"date":"1932-02-03", "type":"T", "kind":"solar", "saros":140, "num":20, "note":"Total solar eclipse"},
+  {"date":"1932-07-30", "type":"A", "kind":"solar", "saros":135, "num":58, "note":"Annular solar eclipse"},
+
+  {"date":"1931-02-14", "type":"T", "kind":"solar", "saros":140, "num":19, "note":"Total solar eclipse"},
+  {"date":"1931-08-10", "type":"A", "kind":"solar", "saros":135, "num":57, "note":"Annular solar eclipse"},
+
+  {"date":"1930-03-09", "type":"T", "kind":"solar", "saros":130, "num":45, "note":"Total solar eclipse"},
+  {"date":"1930-09-03", "type":"A", "kind":"solar", "saros":135, "num":56, "note":"Annular solar eclipse"},
+
+  {"date":"1929-04-29", "type":"T", "kind":"lunar", "saros":121, "num":44, "note":"Total lunar eclipse"},
+  {"date":"1929-05-14", "type":"A", "kind":"solar", "saros":147, "num":13, "note":"Annular solar eclipse"},
+  {"date":"1929-10-21", "type":"P", "kind":"lunar", "saros":126, "num":42, "note":"Partial lunar eclipse"},
+  {"date":"1929-11-05", "type":"T", "kind":"solar", "saros":152, "num":4, "note":"Total solar eclipse"},
+
+  {"date":"1928-06-29", "type":"T", "kind":"solar", "saros":127, "num":46, "note":"Total solar eclipse"},
+  {"date":"1928-12-22", "type":"A", "kind":"solar", "saros":123, "num":41, "note":"Annular solar eclipse"},
+
+  {"date":"1927-03-29", "type":"A", "kind":"solar", "saros":130, "num":45, "note":"Annular solar eclipse"},
+  {"date":"1927-09-21", "type":"A", "kind":"solar", "saros":135, "num":58, "note":"Annular solar eclipse"},
+
+  {"date":"1926-01-14", "type":"A", "kind":"solar", "saros":141, "num":16, "note":"Annular solar eclipse"},
+  {"date":"1926-07-10", "type":"T", "kind":"solar", "saros":136, "num":27, "note":"Total solar eclipse"},
+  {"date":"1926-12-24", "type":"A", "kind":"solar", "saros":131, "num":15, "note":"Annular solar eclipse"},
+
+  {"date":"1925-01-24", "type":"T", "kind":"solar", "saros":140, "num":18, "note":"Total solar eclipse"},
+  {"date":"1925-07-20", "type":"A", "kind":"solar", "saros":135, "num":56, "note":"Annular solar eclipse"},
+
+  {"date":"1924-01-14", "type":"T", "kind":"solar", "saros":140, "num":17, "note":"Total solar eclipse"},
+  {"date":"1924-08-21", "type":"A", "kind":"solar", "saros":135, "num":55, "note":"Annular solar eclipse"},
+
+  {"date":"1923-03-09", "type":"T", "kind":"solar", "saros":130, "num":44, "note":"Total solar eclipse"},
+  {"date":"1923-09-03", "type":"A", "kind":"solar", "saros":135, "num":54, "note":"Annular solar eclipse"},
+
+  {"date":"1922-04-08", "type":"A", "kind":"solar", "saros":128, "num":50, "note":"Annular solar eclipse"},
+  {"date":"1922-10-02", "type":"T", "kind":"solar", "saros":133, "num":37, "note":"Total solar eclipse"},
+
+  {"date":"1921-06-08", "type":"T", "kind":"solar", "saros":127, "num":45, "note":"Total solar eclipse"},
+  {"date":"1921-12-02", "type":"P", "kind":"solar", "saros":122, "num":51, "note":"Partial solar eclipse"},
+
+  {"date":"1920-05-29", "type":"T", "kind":"solar", "saros":126, "num":42, "note":"Total solar eclipse"},
+  {"date":"1920-11-22", "type":"A", "kind":"solar", "saros":131, "num":14, "note":"Annular solar eclipse"},
+
+  {"date":"1919-05-29", "type":"T", "kind":"solar", "saros":136, "num":27, "note":"Total solar eclipse"},
+  {"date":"1919-11-22", "type":"A", "kind":"solar", "saros":131, "num":13, "note":"Annular solar eclipse"},
+
+  {"date":"1918-06-08", "type":"T", "kind":"solar", "saros":127, "num":44, "note":"Total solar eclipse"},
+  {"date":"1918-12-03", "type":"P", "kind":"solar", "saros":122, "num":50, "note":"Partial solar eclipse"},
+
+  {"date":"1917-04-17", "type":"A", "kind":"solar", "saros":128, "num":49, "note":"Annular solar eclipse"},
+  {"date":"1917-10-11", "type":"T", "kind":"solar", "saros":133, "num":36, "note":"Total solar eclipse"},
+
+  {"date":"1916-02-03", "type":"T", "kind":"solar", "saros":140, "num":15, "note":"Total solar eclipse"},
+  {"date":"1916-07-30", "type":"A", "kind":"solar", "saros":135, "num":53, "note":"Annular solar eclipse"},
+
+  {"date":"1915-02-14", "type":"T", "kind":"solar", "saros":140, "num":14, "note":"Total solar eclipse"},
+  {"date":"1915-08-10", "type":"A", "kind":"solar", "saros":135, "num":52, "note":"Annular solar eclipse"},
+
+  {"date":"1914-03-09", "type":"T", "kind":"solar", "saros":130, "num":43, "note":"Total solar eclipse"},
+  {"date":"1914-09-03", "type":"A", "kind":"solar", "saros":135, "num":51, "note":"Annular solar eclipse"},
+
+  {"date":"1913-04-08", "type":"A", "kind":"solar", "saros":128, "num":48, "note":"Annular solar eclipse"},
+  {"date":"1913-10-02", "type":"T", "kind":"solar", "saros":133, "num":35, "note":"Total solar eclipse"},
+
+  {"date":"1912-05-09", "type":"T", "kind":"solar", "saros":127, "num":43, "note":"Total solar eclipse"},
+  {"date":"1912-11-03", "type":"P", "kind":"solar", "saros":122, "num":49, "note":"Partial solar eclipse"},
+
+  {"date":"1911-04-28", "type":"T", "kind":"solar", "saros":126, "num":41, "note":"Total solar eclipse"},
+  {"date":"1911-10-23", "type":"A", "kind":"solar", "saros":131, "num":12, "note":"Annular solar eclipse"},
+
+  {"date":"1910-05-09", "type":"T", "kind":"solar", "saros":136, "num":26, "note":"Total solar eclipse"},
+  {"date":"1910-11-02", "type":"A", "kind":"solar", "saros":131, "num":11, "note":"Annular solar eclipse"},
+
+  {"date":"1909-06-17", "type":"T", "kind":"solar", "saros":127, "num":42, "note":"Total solar eclipse"},
+  {"date":"1909-12-12", "type":"P", "kind":"solar", "saros":122, "num":48, "note":"Partial solar eclipse"},
+
+  {"date":"1908-01-03", "type":"A", "kind":"solar", "saros":141, "num":14, "note":"Annular solar eclipse"},
+  {"date":"1908-06-28", "type":"T", "kind":"solar", "saros":136, "num":25, "note":"Total solar eclipse"},
+  {"date":"1908-12-22", "type":"A", "kind":"solar", "saros":131, "num":10, "note":"Annular solar eclipse"},
+
+  {"date":"1907-01-14", "type":"T", "kind":"solar", "saros":140, "num":13, "note":"Total solar eclipse"},
+  {"date":"1907-07-10", "type":"A", "kind":"solar", "saros":135, "num":50, "note":"Annular solar eclipse"},
+
+  {"date":"1906-01-25", "type":"T", "kind":"solar", "saros":140, "num":12, "note":"Total solar eclipse"},
+  {"date":"1906-07-20", "type":"A", "kind":"solar", "saros":135, "num":49, "note":"Annular solar eclipse"},
+
+  {"date":"1905-03-09", "type":"T", "kind":"solar", "saros":130, "num":42, "note":"Total solar eclipse"},
+  {"date":"1905-09-03", "type":"A", "kind":"solar", "saros":135, "num":48, "note":"Annular solar eclipse"},
+
+  {"date":"1904-04-08", "type":"A", "kind":"solar", "saros":128, "num":47, "note":"Annular solar eclipse"},
+  {"date":"1904-10-02", "type":"T", "kind":"solar", "saros":133, "num":34, "note":"Total solar eclipse"},
+
+  {"date":"1903-05-18", "type":"T", "kind":"solar", "saros":127, "num":41, "note":"Total solar eclipse"},
+  {"date":"1903-11-12", "type":"P", "kind":"solar", "saros":122, "num":47, "note":"Partial solar eclipse"},
+
+  {"date":"1902-04-28", "type":"T", "kind":"solar", "saros":126, "num":40, "note":"Total solar eclipse"},
+  {"date":"1902-10-23", "type":"A", "kind":"solar", "saros":131, "num":9, "note":"Annular solar eclipse"},
+
+  {"date":"1901-05-18", "type":"T", "kind":"solar", "saros":136, "num":24, "note":"Total solar eclipse"},
+  {"date":"1901-11-11", "type":"A", "kind":"solar", "saros":131, "num":8, "note":"Annular solar eclipse"},
+
+  {"date":"1900-05-28", "type":"A", "kind":"solar", "saros":136, "num":22, "note":"Annular solar eclipse"},
+  {"date":"1900-11-22", "type":"T", "kind":"solar", "saros":141, "num":13, "note":"Total solar eclipse"}
+]
