@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
@@ -299,9 +299,11 @@ const cycles = [
   { name: "🌕 Метон",            days: 6939.602, short: "~19 лет" },
   { name: "🌒 Инекс",            days: 10571.95, short: "~29 лет" },
   { name: "🌘 Экселигмос",       days: 19755.96, short: "~54 г 33 д" },
-  { name: "🌙 Каллипп",          days: 27758.77, short: "~76 лет" }
+  { name: "🌙 Каллипп",          days: 27758.77, short: "~76 лет" },
+  { name: "☀️ Сарос",            days: 6585.32,  short: "~18 г 11 д" }
 ];
 
+// Функция расчёта следующей даты цикла
 function getNextCycleDate(dt, cycleDays) {
   const jd = getJulianDate(dt);
   const remainder = jd % cycleDays;
