@@ -52,12 +52,13 @@
       color: white;
       border: none;
       border-radius: 8px;
-      padding: 10px 28px;
+      padding: 10px 20px;
       font-size: 1.05rem;
       cursor: pointer;
       box-shadow: 0 4px 14px #7a40ff50;
     }
     button:hover { opacity: 0.93; }
+
     .content-row {
       display: flex;
       flex-wrap: wrap;
@@ -197,17 +198,157 @@
       border-radius: 6px;
       border: 1px solid rgba(136,204,255,0.2);
     }
-    .luna-type {
-      font-weight: bold;
-      color: #88ccff;
-    }
+
     .error { color: #ff7070; }
+
     footer { 
       margin-top: auto; 
       padding: 40px 0 20px; 
       font-size: 0.88rem; 
       opacity: 0.65; 
       text-align: center; 
+    }
+
+    /* ─── Dropdown стили ──────────────────────────────────────────────── */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      background: linear-gradient(90deg, #5a30aa, #8a60cc);
+      color: white;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      min-width: 160px;
+      text-align: left;
+      box-shadow: 0 4px 12px #0008;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+      background: linear-gradient(90deg, #7a50cc, #aa88ff);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: rgba(30, 10, 60, 0.98);
+      min-width: 160px;
+      box-shadow: 0 8px 24px #000c;
+      border-radius: 8px;
+      z-index: 10;
+      overflow: hidden;
+      border: 1px solid #7040aa60;
+      top: 100%;
+      left: 0;
+    }
+
+    .dropdown-content a {
+      color: #ddccff;
+      padding: 10px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 0.98rem;
+    }
+
+    .dropdown-content a:hover {
+      background: rgba(80, 40, 110, 0.7);
+      color: white;
+    }
+
+    .dropdown.show .dropdown-content {
+      display: block;
+    }
+
+    /* ─── Стили для блока Сароса ──────────────────────────────────────── */
+    .saros-block {
+      background: rgba(30, 10, 50, 0.75);
+      border-left: 5px solid #bb88ff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 28px auto 0;
+      max-width: 800px;
+      box-shadow: 0 4px 20px #0008;
+    }
+
+    .saros-block h3 {
+      margin: 0 0 18px;
+      color: #ddbbff;
+      font-size: 1.35rem;
+    }
+
+    .saros-input {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .saros-status {
+      text-align: center;
+      min-height: 1.6em;
+      margin: 12px 0;
+      font-size: 1.1rem;
+    }
+
+    .saros-list {
+      margin-top: 12px;
+    }
+
+    .saros-item {
+      background: rgba(60, 30, 90, 0.45);
+      border: 1px solid #aa88ff30;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin: 8px 0;
+      transition: all 0.18s;
+    }
+
+    .saros-item:hover {
+      background: rgba(80, 40, 110, 0.6);
+      border-color: #bb99ff60;
+    }
+
+    .saros-date-link {
+      color: #ddccff;
+      cursor: pointer;
+      text-decoration: underline dotted #ddccff80;
+    }
+
+    .saros-date-link:hover {
+      color: white;
+      text-decoration: underline solid white;
+      background: rgba(255,255,255,0.1);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+
+    @keyframes pulseError {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.35; }
+    }
+
+    .input-error {
+      animation: shake 0.5s;
+      border-color: #ff6060 !important;
+      box-shadow: 0 0 15px #ff404080 !important;
+    }
+
+    .status-error {
+      color: #ff7070;
+      font-weight: bold;
+      animation: pulseError 1.8s infinite;
     }
 
     @media (max-width: 1100px) {
@@ -249,9 +390,37 @@
       Загрузка данных о новолуниях...
     </div>
   </div>
+
+  <div class="saros-block">
+    <h3>🔍 Поиск по серии Сароса</h3>
+
+    <div class="saros-input">
+      <input type="date" id="sarosInputDate" />
+
+      <div class="dropdown" id="timingDropdown">
+        <button class="dropbtn" id="timingBtn">Тайминг ▾</button>
+        <div class="dropdown-content" id="timingMenu">
+          <a href="#" data-timing="future">Будущие</a>
+          <a href="#" data-timing="past">Прошлые</a>
+        </div>
+      </div>
+
+      <div class="dropdown" id="typeDropdown">
+        <button class="dropbtn" id="typeBtn">Тип затмения ▾</button>
+        <div class="dropdown-content" id="typeMenu">
+          <a href="#" data-type="all">Все</a>
+          <a href="#" data-type="lunar">Только лунные</a>
+          <a href="#" data-type="solar">Только солнечные</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="sarosStatus" class="saros-status"></div>
+    <div id="sarosList" class="saros-list"></div>
+  </div>
 </div>
 
-<footer>Данные по затмениям и лунациям с сайта NASA</footer>
+<footer>Данные по затмениям и лунациям с сайта NASA • Циклы — приближённый астрономический расчёт</footer>
 
 <script>
 window.addEventListener('load', () => {
@@ -292,35 +461,40 @@ function getTarotArkan(d, m, y) {
 const tarot = ["","Маг","Верховная Жрица","Императрица","Император","Иерофант","Влюблённые","Колесница","Сила","Отшельник","Колесо Фортуны","Справедливость","Повешенный","Смерть","Умеренность","Дьявол","Башня","Звезда","Луна","Солнце","Суд","Мир","Шут"];
 
 const cycles = [
-  { name: "⏳ Семестр",          days: 177.18,   short: "177 дн" },
-  { name: "⌛ Полусеместр",      days: 148.00,   short: "148 дн" },
-  { name: "🌑 Тритос",           days: 3986.63,  short: "~11 лет" },
-  { name: "🌗 Октаэтерис",       days: 2923.53,  short: "~8 лет" },
-  { name: "🌕 Метон",            days: 6939.602, short: "~19 лет" },
-  { name: "🌒 Инекс",            days: 10571.95, short: "~29 лет" },
-  { name: "🌘 Экселигмос",       days: 19755.96, short: "~54 г 33 д" },
-  { name: "🌙 Каллипп",          days: 27758.77, short: "~76 лет" },
-  { name: "☀️ Сарос",            days: 6585.32,  short: "~18 г 11 д" }
+  { name: "⏳ Семестр",          days: 177.1835,   short: "177 дн"     },
+  { name: "⌛ Полусеместр",      days: 148.00,     short: "148 дн"     },
+  { name: "🌑 Тритос",           days: 3986.63,    short: "~11 лет"    },
+  { name: "🌗 Октаэтерис",       days: 2923.53,    short: "~8 лет"     },
+  { name: "🌕 Метон",            days: 6939.688,   short: "~19 лет"    },
+  { name: "🌒 Инекс",            days: 10571.951,  short: "~29 лет"    },
+  { name: "🌘 Экселигмос",       days: 19755.963,  short: "~54 г 33 д" },
+  { name: "🌙 Каллипп",          days: 27758.817,  short: "~76 лет"    },
+  { name: "☀️ Сарос",            days: 6585.321,   short: "~18 г 11 д" }
 ];
 
-// Функция расчёта следующей даты цикла
 function getNextCycleDate(dt, cycleDays) {
   const jd = getJulianDate(dt);
-  const remainder = jd % cycleDays;
-  const daysToAdd = Math.ceil(cycleDays - remainder);
-  
-  const msPerDay = 86400000;
+  const fullCycles = Math.floor(jd / cycleDays);
+  const cycleStart = fullCycles * cycleDays;
+  let fractional = jd - cycleStart;
+  if (fractional < 0.0005) fractional = 0;
+  let daysToAdd = cycleDays - fractional;
+  if (daysToAdd < 0.5) daysToAdd += cycleDays;
+  if (daysToAdd < 1) daysToAdd = 1;
   const nextJD = jd + daysToAdd;
+  const msPerDay = 86400000;
   const refDate = new Date(Date.UTC(2000, 0, 1, 12, 0, 0));
   const refJD = 2451545.0;
   const deltaJD = nextJD - refJD;
   const nextDate = new Date(refDate.getTime() + deltaJD * msPerDay);
-  
   const dd = String(nextDate.getUTCDate()).padStart(2,'0');
   const mm = String(nextDate.getUTCMonth() + 1).padStart(2,'0');
   const yyyy = nextDate.getUTCFullYear();
-  
-  return { days: daysToAdd, dateStr: `${dd}.${mm}.${yyyy}`, iso: nextDate.toISOString().slice(0,10) };
+  return {
+    days: Math.round(daysToAdd),
+    dateStr: `${dd}.${mm}.${yyyy}`,
+    iso: nextDate.toISOString().slice(0,10)
+  };
 }
 
 function setDateAndCalculate(dateStr) {
@@ -407,6 +581,172 @@ function findNearestMoon(dt, typeFilter = null) {
   return { prev, next };
 }
 
+// ─── Dropdown логика ────────────────────────────────────────────────────
+document.querySelectorAll('.dropbtn').forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    const parent = this.parentElement;
+    const isOpen = parent.classList.contains('show');
+    
+    document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('show'));
+    
+    if (!isOpen) parent.classList.add('show');
+  });
+});
+
+document.addEventListener('click', function() {
+  document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('show'));
+});
+
+// ─── Поиск по Саросу ────────────────────────────────────────────────────
+const sarosDateInput   = document.getElementById('sarosInputDate');
+const sarosStatus      = document.getElementById('sarosStatus');
+const sarosList        = document.getElementById('sarosList');
+const timingBtn        = document.getElementById('timingBtn');
+const typeBtn          = document.getElementById('typeBtn');
+
+let selectedSaros = null;
+let selectedDateISO = null;
+let eclipseKindFilter = 'all';     // all | lunar | solar
+let timingDirection   = 'future';  // future | past
+
+function updateButtonTexts() {
+  timingBtn.textContent = (timingDirection === 'future' ? "Будущие" : "Прошлые") + " ▾";
+  if (eclipseKindFilter === 'all')   typeBtn.textContent = "Все ▾";
+  if (eclipseKindFilter === 'lunar') typeBtn.textContent = "Только лунные ▾";
+  if (eclipseKindFilter === 'solar') typeBtn.textContent = "Только солнечные ▾";
+}
+
+function refreshSarosList() {
+  if (!selectedSaros || !selectedDateISO) return;
+  const items = getSarosEclipses(selectedSaros, selectedDateISO, timingDirection);
+  sarosList.innerHTML = renderSarosItems(items, timingDirection);
+}
+
+// ─── Функции для Сароса ─────────────────────────────────────────────────
+function getSarosForDate(dateISO) {
+  if (!eclipses || !eclipses.length) return null;
+  const eclipse = eclipses.find(e => e.date === dateISO);
+  return eclipse ? eclipse.saros : null;
+}
+
+function getSarosEclipses(saros, refISO, direction = 'future') {
+  if (!eclipses) return [];
+  const refDate = new Date(refISO + 'T12:00:00Z');
+  const refJD = getJulianDate(refDate);
+
+  let filter = e => e.saros === saros;
+  if (eclipseKindFilter === 'lunar') filter = e => e.saros === saros && e.kind === 'lunar';
+  if (eclipseKindFilter === 'solar') filter = e => e.saros === saros && e.kind === 'solar';
+
+  let series = eclipses
+    .filter(filter)
+    .map(e => ({
+      ...e,
+      jd: getJulianDate(new Date(e.date + 'T12:00:00Z'))
+    }))
+    .sort((a, b) => a.jd - b.jd);
+
+  let refIdx = -1;
+  let minDiff = Infinity;
+  series.forEach((e, i) => {
+    const diff = Math.abs(e.jd - refJD);
+    if (diff < minDiff) {
+      minDiff = diff;
+      refIdx = i;
+    }
+  });
+
+  if (refIdx < 0) return [];
+
+  let result = [];
+  if (direction === 'future') {
+    for (let i = refIdx + 1; i < series.length && result.length < 5; i++) {
+      result.push(series[i]);
+    }
+  } else {
+    for (let i = refIdx - 1; i >= 0 && result.length < 5; i--) {
+      result.push(series[i]);
+    }
+    result.reverse();
+  }
+  return result;
+}
+
+function renderSarosItems(items, dir) {
+  if (items.length === 0) {
+    const kindText = eclipseKindFilter === 'lunar' ? 'лунных' : eclipseKindFilter === 'solar' ? 'солнечных' : '';
+    return `<div style="color:#ffcc99; padding:12px; text-align:center;">
+      В этой серии${kindText ? ` (${kindText})` : ''} больше нет ${dir === 'future' ? 'будущих' : 'прошлых'} затмений в базе.
+    </div>`;
+  }
+
+  let html = '';
+  const typeMap = { T: "Полное", A: "Кольцевое", H: "Гибридное", P: "Частичное" };
+
+  items.forEach(e => {
+    const kindRu = e.kind === 'solar' ? 'солнечное' : 'лунное';
+    const typeRu = typeMap[e.type] || e.type;
+    html += `
+      <div class="saros-item">
+        <span class="saros-date-link" onclick="setDateAndCalculate('${e.date}')">
+          ${e.date}
+        </span>
+         — ${typeRu} ${kindRu}
+      </div>
+    `;
+  });
+  return html;
+}
+
+// События на пункты меню
+document.querySelectorAll('#timingMenu a').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    timingDirection = link.dataset.timing;
+    updateButtonTexts();
+    refreshSarosList();
+  });
+});
+
+document.querySelectorAll('#typeMenu a').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+    eclipseKindFilter = link.dataset.type;
+    updateButtonTexts();
+    refreshSarosList();
+  });
+});
+
+// Событие на дату
+sarosDateInput.addEventListener('change', () => {
+  const val = sarosDateInput.value.trim();
+  if (!val) {
+    sarosStatus.innerHTML = '';
+    sarosList.innerHTML = '';
+    selectedSaros = null;
+    selectedDateISO = null;
+    return;
+  }
+
+  const saros = getSarosForDate(val);
+  if (!saros) {
+    sarosStatus.innerHTML = `<span class="status-error">На выбранную дату нет затмения</span>`;
+    sarosDateInput.classList.add('input-error');
+    setTimeout(() => sarosDateInput.classList.remove('input-error'), 1200);
+    sarosList.innerHTML = '';
+    return;
+  }
+
+  selectedSaros = saros;
+  selectedDateISO = val;
+  sarosStatus.innerHTML = `Серия Сароса: <b style="color:#cc99ff; font-size:1.2rem;">${saros}</b>`;
+  refreshSarosList();
+});
+
+updateButtonTexts();
+
+// ─── Основной расчёт ────────────────────────────────────────────────────
 function calculate() {
   const val = document.getElementById("theDate").value;
   if (!val) {
@@ -421,7 +761,7 @@ function calculate() {
 
   // Дата
   let dateHtml = `
-    <div class="date-line"><strong>Дата:</strong> ${d} ${monthRu} ${y} 🌑</div>
+    <div class="date-line"><strong>Дата:</strong> ${d} ${monthRu} ${y}</div>
     <div class="date-line"><strong>Лунация по Брауну:</strong> ${getBrownLunationNumber(dt)}</div>
     ${getMiussLunationNumber(dt) ? `<div class="date-line"><strong>Лунация по Миусу:</strong> ${getMiussLunationNumber(dt)}</div>` : ''}
     <div class="date-line"><strong>Лунный день:</strong> ${getLunarDay(jd)}</div>
@@ -451,7 +791,7 @@ function calculate() {
     const t = typeTranslate[info.prevSolar.type] || info.prevSolar.type;
     eclipseHtml += `
       <div class="eclipse-prev">
-        <span class="eclipse-label"><span class="eclipse-icon">☀️</span>Предыдущее солнечное:</span> 
+        <span class="eclipse-label"><span class="eclipse-icon">☀️</span>Пред. солнечное:</span> 
         <span class="eclipse-date" onclick="setDateAndCalculate('${info.prevSolar.date}')">${info.prevSolar.date}</span> 
         (${info.prevSolar.diffDays} дн назад)<br>
         → ${t} <span class="eclipse-saros">С-${info.prevSolar.saros}</span>
@@ -462,7 +802,7 @@ function calculate() {
     const t = typeTranslate[info.nextSolar.type] || info.nextSolar.type;
     eclipseHtml += `
       <div class="eclipse-next">
-        <span class="eclipse-label"><span class="eclipse-icon">☀️</span>Следующее солнечное:</span> 
+        <span class="eclipse-label"><span class="eclipse-icon">☀️</span>След. солнечное:</span> 
         <span class="eclipse-date" onclick="setDateAndCalculate('${info.nextSolar.date}')">${info.nextSolar.date}</span> 
         (через ${info.nextSolar.diffDays} дн)<br>
         → ${t} <span class="eclipse-saros">С-${info.nextSolar.saros}</span>
@@ -474,7 +814,7 @@ function calculate() {
     const t = typeTranslate[info.prevLunar.type] || info.prevLunar.type;
     eclipseHtml += `
       <div class="eclipse-prev">
-        <span class="eclipse-label"><span class="eclipse-icon">🌕</span>Предыдущее лунное:</span> 
+        <span class="eclipse-label"><span class="eclipse-icon">🌕</span>Пред. лунное:</span> 
         <span class="eclipse-date" onclick="setDateAndCalculate('${info.prevLunar.date}')">${info.prevLunar.date}</span> 
         (${info.prevLunar.diffDays} дн назад)<br>
         → ${t} <span class="eclipse-saros">С-${info.prevLunar.saros}</span>
@@ -485,7 +825,7 @@ function calculate() {
     const t = typeTranslate[info.nextLunar.type] || info.nextLunar.type;
     eclipseHtml += `
       <div class="eclipse-next">
-        <span class="eclipse-label"><span class="eclipse-icon">🌕</span>Следующее лунное:</span> 
+        <span class="eclipse-label"><span class="eclipse-icon">🌕</span>След. лунное:</span> 
         <span class="eclipse-date" onclick="setDateAndCalculate('${info.nextLunar.date}')">${info.nextLunar.date}</span> 
         (через ${info.nextLunar.diffDays} дн)<br>
         → ${t} <span class="eclipse-saros">С-${info.nextLunar.saros}</span>
@@ -512,12 +852,11 @@ function calculate() {
       </div>
     `;
   });
-  cyclesHtml += `<span class="cycle-small">Погрешность ±1 день на длинных циклах</span>`;
+  cyclesHtml += `<span class="cycle-small">Это приближённый расчёт повторения конфигурации (не точные даты затмений) ±1–4 дня на длинных циклах</span>`;
   document.getElementById("cyclesInfo").innerHTML = cyclesHtml;
 
-  // Луна — ТОЛЬКО НОВОЛУНИЯ
+  // Луна — новолуния
   let lunaHtml = '';
-
   const nearestNew = findNearestMoon(dt, "New Moon");
 
   if (nearestNew.prev) {
