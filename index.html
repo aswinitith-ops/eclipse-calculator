@@ -438,10 +438,12 @@ function getJulianDate(d) {
 
 function getBrownLunationNumber(d) {
   const jd = getJulianDate(d);
+  
+  const baseJD = 2423435.44;     
   const synodicMonth = 29.530588861;
 
   const lunation = (jd - baseJD) / synodicMonth;
-  return Math.round(lunation) + 1;
+  return Math.round(lunation);      
 }
 
 function getMiussLunationNumber(d) {
