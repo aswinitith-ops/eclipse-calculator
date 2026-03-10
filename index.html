@@ -438,12 +438,7 @@ function getJulianDate(d) {
 
 function getBrownLunationNumber(d) {
   const jd = getJulianDate(d);
-  
-  // Базовая эпоха: новолуние 17 января 1923 ≈ 02:41 UTC
-  // JD этой лунации ≈ 2423436.6115
-  // Но для целочисленного округления чаще используют чуть скорректированную константу
-  const baseJD = 2423436.44;          // даёт точное совпадение с большинством таблиц
-  const synodicMonth = 29.530588861;  // твой текущий период — оставляем
+  const synodicMonth = 29.530588861;
 
   const lunation = (jd - baseJD) / synodicMonth;
   return Math.round(lunation) + 1;
